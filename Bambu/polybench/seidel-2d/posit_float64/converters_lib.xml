@@ -1,0 +1,1515 @@
+<?xml version="1.0"?>
+<technology>
+  <library>
+    <name>converters_lib</name>
+    <!--
+    <cell>
+      <name>posit2float_32_32_100</name>
+      <operation operation_name="posit2float" cycles="1" execution_time="11.977"/>
+      <circuit>
+        <component_o id="posit2float_32_32_100">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="posit2float_32_32_100"/>
+          <parameter name="PIPE_PARAMETER">100</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="posit2float_32_32_100 " FLOPOCO_PROVIDED="Posit2FP_32_32"/>
+        </component_o>
+      </circuit>
+    </cell>
+    -->
+    <!--
+    <cell>
+      <name>posit2float_32_64_100</name>
+      <operation operation_name="posit2float" cycles="1" execution_time="11.720000000000001"/>
+      <circuit>
+        <component_o id="posit2float_32_64_100">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="posit2float_32_64_100"/>
+          <parameter name="PIPE_PARAMETER">100</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="64"/>
+          </port_o>
+          <NP_functionality LIBRARY="posit2float_32_64_100 " FLOPOCO_PROVIDED="Posit2FP_32_64"/>
+        </component_o>
+      </circuit>
+    </cell>
+    -->    
+    <!--
+    <cell>
+      <name>float2posit_32_32_100</name>
+      <operation operation_name="float2posit" cycles="2" initiation_time="1" stage_period="5.1310000000000002"/>
+      <circuit>
+        <component_o id="float2posit_32_32_100">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="float2posit_32_32_100"/>
+          <parameter name="PIPE_PARAMETER">100</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="float2posit_32_32_100 " FLOPOCO_PROVIDED="FP2Posit_32_32"/>
+        </component_o>
+      </circuit>
+    </cell>
+    -->
+
+    <cell>
+      <name>float2posit_64_32_100</name>
+      <operation operation_name="float2posit" cycles="2" initiation_time="1" stage_period="5.585"/>
+      <circuit>
+        <component_o id="float2posit_64_32_100">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="float2posit_64_32_100"/>
+          <parameter name="PIPE_PARAMETER">100</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="64"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="float2posit_64_32_100 " FLOPOCO_PROVIDED="FP2Posit_64_32"/>
+        </component_o>
+      </circuit>
+    </cell>
+
+    <!--
+    <cell>
+      <name>posit2float_32_32_150</name>
+      <operation operation_name="posit2float" cycles="2" initiation_time="1" stage_period="9.2989999999999995"/>
+      <circuit>
+        <component_o id="posit2float_32_32_150">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="posit2float_32_32_150"/>
+          <parameter name="PIPE_PARAMETER">150</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="posit2float_32_32_150 " FLOPOCO_PROVIDED="Posit2FP_32_32"/>
+        </component_o>
+      </circuit>
+    </cell>
+    -->
+
+    <cell>
+      <name>posit2float_32_64_150</name>
+      <!-- <operation operation_name="posit2float" cycles="2" initiation_time="1" stage_period="9.7260000000000009"/> -->
+      <operation operation_name="posit2float" cycles="2" initiation_time="1" stage_period="8.75"/>
+      <circuit>
+        <component_o id="posit2float_32_64_150">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="posit2float_32_64_150"/>
+          <parameter name="PIPE_PARAMETER">150</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="64"/>
+          </port_o>
+          <NP_functionality LIBRARY="posit2float_32_64_150 " FLOPOCO_PROVIDED="Posit2FP_32_64"/>
+        </component_o>
+      </circuit>
+    </cell>
+
+    <!--
+    <cell>
+      <name>float2posit_32_32_150</name>
+      <operation operation_name="float2posit" cycles="2" initiation_time="1" stage_period="5.6210000000000004"/>
+      <circuit>
+        <component_o id="float2posit_32_32_150">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="float2posit_32_32_150"/>
+          <parameter name="PIPE_PARAMETER">150</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="float2posit_32_32_150 " FLOPOCO_PROVIDED="FP2Posit_32_32"/>
+        </component_o>
+      </circuit>
+    </cell>
+    -->
+    <!--
+    <cell>
+      <name>float2posit_64_32_150</name>
+      <operation operation_name="float2posit" cycles="3" initiation_time="1" stage_period="5.0780000000000003"/>
+      <circuit>
+        <component_o id="float2posit_64_32_150">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="float2posit_64_32_150"/>
+          <parameter name="PIPE_PARAMETER">150</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="64"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="float2posit_64_32_150 " FLOPOCO_PROVIDED="FP2Posit_64_32"/>
+        </component_o>
+      </circuit>
+    </cell>
+    -->
+    <!--
+      <cell>
+      <name>posit2float_32_32_200</name>
+      <operation operation_name="posit2float" cycles="2" initiation_time="1" stage_period="8.6509999999999998"/>
+      <circuit>
+        <component_o id="posit2float_32_32_200">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="posit2float_32_32_200"/>
+          <parameter name="PIPE_PARAMETER">200</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="posit2float_32_32_200 " FLOPOCO_PROVIDED="Posit2FP_32_32"/>
+        </component_o>
+      </circuit>
+    </cell>
+    -->
+    <!--
+    <cell>
+      <name>posit2float_32_64_200</name>
+      <operation operation_name="posit2float" cycles="3" initiation_time="1" stage_period="8.875"/>
+      <circuit>
+        <component_o id="posit2float_32_64_200">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="posit2float_32_64_200"/>
+          <parameter name="PIPE_PARAMETER">200</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="64"/>
+          </port_o>
+          <NP_functionality LIBRARY="posit2float_32_64_200 " FLOPOCO_PROVIDED="Posit2FP_32_64"/>
+        </component_o>
+      </circuit>
+    </cell>
+    -->
+    <!--
+    <cell>
+      <name>float2posit_32_32_200</name>
+      <operation operation_name="float2posit" cycles="3" initiation_time="1" stage_period="5.1020000000000003"/>
+      <circuit>
+        <component_o id="float2posit_32_32_200">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="float2posit_32_32_200"/>
+          <parameter name="PIPE_PARAMETER">200</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="float2posit_32_32_200 " FLOPOCO_PROVIDED="FP2Posit_32_32"/>
+        </component_o>
+      </circuit>
+    </cell>
+    -->
+    <!--
+    <cell>
+      <name>float2posit_64_32_200</name>
+      <operation operation_name="float2posit" cycles="4" initiation_time="1" stage_period="5.4880000000000004"/>
+      <circuit>
+        <component_o id="float2posit_64_32_200">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="float2posit_64_32_200"/>
+          <parameter name="PIPE_PARAMETER">200</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="64"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="float2posit_64_32_200 " FLOPOCO_PROVIDED="FP2Posit_64_32"/>
+        </component_o>
+      </circuit>
+    </cell>
+    -->
+    <!--
+    <cell>
+      <name>posit2float_32_32_250</name>
+      <operation operation_name="posit2float" cycles="3" initiation_time="1" stage_period="7.3109999999999999"/>
+      <circuit>
+        <component_o id="posit2float_32_32_250">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="posit2float_32_32_250"/>
+          <parameter name="PIPE_PARAMETER">250</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="posit2float_32_32_250 " FLOPOCO_PROVIDED="Posit2FP_32_32"/>
+        </component_o>
+      </circuit>
+    </cell>
+    -->
+    <!--
+    <cell>
+      <name>posit2float_32_64_250</name>
+      <operation operation_name="posit2float" cycles="3" initiation_time="1" stage_period="7.0970000000000004"/>
+      <circuit>
+        <component_o id="posit2float_32_64_250">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="posit2float_32_64_250"/>
+          <parameter name="PIPE_PARAMETER">250</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="64"/>
+          </port_o>
+          <NP_functionality LIBRARY="posit2float_32_64_250 " FLOPOCO_PROVIDED="Posit2FP_32_64"/>
+        </component_o>
+      </circuit>
+    </cell>
+    -->
+    <!--
+    <cell>
+      <name>float2posit_32_32_250</name>
+      <operation operation_name="float2posit" cycles="4" initiation_time="1" stage_period="4.9800000000000004"/>
+      <circuit>
+        <component_o id="float2posit_32_32_250">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="float2posit_32_32_250"/>
+          <parameter name="PIPE_PARAMETER">250</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="float2posit_32_32_250 " FLOPOCO_PROVIDED="FP2Posit_32_32"/>
+        </component_o>
+      </circuit>
+    </cell>
+    -->
+    <!--
+    <cell>
+      <name>float2posit_64_32_250</name>
+      <operation operation_name="float2posit" cycles="4" initiation_time="1" stage_period="5.1509999999999998"/>
+      <circuit>
+        <component_o id="float2posit_64_32_250">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="float2posit_64_32_250"/>
+          <parameter name="PIPE_PARAMETER">250</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="64"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="float2posit_64_32_250 " FLOPOCO_PROVIDED="FP2Posit_64_32"/>
+        </component_o>
+      </circuit>
+    </cell>
+    -->
+    <!--
+    <cell>
+      <name>posit2float_32_32_300</name>
+      <operation operation_name="posit2float" cycles="3" initiation_time="1" stage_period="8.0640000000000001"/>
+      <circuit>
+        <component_o id="posit2float_32_32_300">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="posit2float_32_32_300"/>
+          <parameter name="PIPE_PARAMETER">300</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="posit2float_32_32_300 " FLOPOCO_PROVIDED="Posit2FP_32_32"/>
+        </component_o>
+      </circuit>
+    </cell>
+    -->
+    <!--
+    <cell>
+      <name>posit2float_32_64_300</name>
+      <operation operation_name="posit2float" cycles="3" initiation_time="1" stage_period="7.2210000000000001"/>
+      <circuit>
+        <component_o id="posit2float_32_64_300">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="posit2float_32_64_300"/>
+          <parameter name="PIPE_PARAMETER">300</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="64"/>
+          </port_o>
+          <NP_functionality LIBRARY="posit2float_32_64_300 " FLOPOCO_PROVIDED="Posit2FP_32_64"/>
+        </component_o>
+      </circuit>
+    </cell>
+    -->
+    <!--
+    <cell>
+      <name>float2posit_32_32_300</name>
+      <operation operation_name="float2posit" cycles="5" initiation_time="1" stage_period="4.9989999999999997"/>
+      <circuit>
+        <component_o id="float2posit_32_32_300">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="float2posit_32_32_300"/>
+          <parameter name="PIPE_PARAMETER">300</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="float2posit_32_32_300 " FLOPOCO_PROVIDED="FP2Posit_32_32"/>
+        </component_o>
+      </circuit>
+    </cell>
+    -->
+    <!--
+    <cell>
+      <name>float2posit_64_32_300</name>
+      <operation operation_name="float2posit" cycles="5" initiation_time="1" stage_period="4.9539999999999997"/>
+      <circuit>
+        <component_o id="float2posit_64_32_300">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="float2posit_64_32_300"/>
+          <parameter name="PIPE_PARAMETER">300</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="64"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="float2posit_64_32_300 " FLOPOCO_PROVIDED="FP2Posit_64_32"/>
+        </component_o>
+      </circuit>
+    </cell>
+    -->
+    <!--
+    <cell>
+      <name>posit2float_32_32_350</name>
+      <operation operation_name="posit2float" cycles="4" initiation_time="1" stage_period="5.5289999999999999"/>
+      <circuit>
+        <component_o id="posit2float_32_32_350">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="posit2float_32_32_350"/>
+          <parameter name="PIPE_PARAMETER">350</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="posit2float_32_32_350 " FLOPOCO_PROVIDED="Posit2FP_32_32"/>
+        </component_o>
+      </circuit>
+    </cell>
+    -->
+    <!--
+    <cell>
+      <name>posit2float_32_64_350</name>
+      <operation operation_name="posit2float" cycles="3" initiation_time="1" stage_period="5.6420000000000003"/>
+      <circuit>
+        <component_o id="posit2float_32_64_350">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="posit2float_32_64_350"/>
+          <parameter name="PIPE_PARAMETER">350</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="64"/>
+          </port_o>
+          <NP_functionality LIBRARY="posit2float_32_64_350 " FLOPOCO_PROVIDED="Posit2FP_32_64"/>
+        </component_o>
+      </circuit>
+    </cell>
+    -->
+    <!--
+    <cell>
+      <name>float2posit_32_32_350</name>
+      <operation operation_name="float2posit" cycles="5" initiation_time="1" stage_period="5.0110000000000001"/>
+      <circuit>
+        <component_o id="float2posit_32_32_350">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="float2posit_32_32_350"/>
+          <parameter name="PIPE_PARAMETER">350</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="float2posit_32_32_350 " FLOPOCO_PROVIDED="FP2Posit_32_32"/>
+        </component_o>
+      </circuit>
+    </cell>
+    -->
+    <!--
+    <cell>
+      <name>float2posit_64_32_350</name>
+      <operation operation_name="float2posit" cycles="6" initiation_time="1" stage_period="4.7699999999999996"/>
+      <circuit>
+        <component_o id="float2posit_64_32_350">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="float2posit_64_32_350"/>
+          <parameter name="PIPE_PARAMETER">350</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="64"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="float2posit_64_32_350 " FLOPOCO_PROVIDED="FP2Posit_64_32"/>
+        </component_o>
+      </circuit>
+    </cell>
+    -->
+    <!--
+    <cell>
+      <name>posit2float_32_32_400</name>
+      <operation operation_name="posit2float" cycles="5" initiation_time="1" stage_period="5.3399999999999999"/>
+      <circuit>
+        <component_o id="posit2float_32_32_400">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="posit2float_32_32_400"/>
+          <parameter name="PIPE_PARAMETER">400</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="posit2float_32_32_400 " FLOPOCO_PROVIDED="Posit2FP_32_32"/>
+        </component_o>
+      </circuit>
+    </cell>
+    -->
+    <!--
+    <cell>
+      <name>posit2float_32_64_400</name>
+      <operation operation_name="posit2float" cycles="4" initiation_time="1" stage_period="5.4199999999999999"/>
+      <circuit>
+        <component_o id="posit2float_32_64_400">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="posit2float_32_64_400"/>
+          <parameter name="PIPE_PARAMETER">400</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="64"/>
+          </port_o>
+          <NP_functionality LIBRARY="posit2float_32_64_400 " FLOPOCO_PROVIDED="Posit2FP_32_64"/>
+        </component_o>
+      </circuit>
+    </cell>
+    -->
+    <!--
+    <cell>
+      <name>float2posit_32_32_400</name>
+      <operation operation_name="float2posit" cycles="6" initiation_time="1" stage_period="4.9199999999999999"/>
+      <circuit>
+        <component_o id="float2posit_32_32_400">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="float2posit_32_32_400"/>
+          <parameter name="PIPE_PARAMETER">400</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="float2posit_32_32_400 " FLOPOCO_PROVIDED="FP2Posit_32_32"/>
+        </component_o>
+      </circuit>
+    </cell>
+    -->
+    <!--
+    <cell>
+      <name>float2posit_64_32_400</name>
+      <operation operation_name="float2posit" cycles="7" initiation_time="1" stage_period="4.8280000000000003"/>
+      <circuit>
+        <component_o id="float2posit_64_32_400">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="float2posit_64_32_400"/>
+          <parameter name="PIPE_PARAMETER">400</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="64"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="float2posit_64_32_400 " FLOPOCO_PROVIDED="FP2Posit_64_32"/>
+        </component_o>
+      </circuit>
+    </cell>
+    -->
+    <!--
+    <cell>
+      <name>posit2float_32_32_450</name>
+      <operation operation_name="posit2float" cycles="5" initiation_time="1" stage_period="5.5449999999999999"/>
+      <circuit>
+        <component_o id="posit2float_32_32_450">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="posit2float_32_32_450"/>
+          <parameter name="PIPE_PARAMETER">450</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="posit2float_32_32_450 " FLOPOCO_PROVIDED="Posit2FP_32_32"/>
+        </component_o>
+      </circuit>
+    </cell>
+    -->
+    <!--
+    <cell>
+      <name>posit2float_32_64_450</name>
+      <operation operation_name="posit2float" cycles="4" initiation_time="1" stage_period="5.2359999999999998"/>
+      <circuit>
+        <component_o id="posit2float_32_64_450">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="posit2float_32_64_450"/>
+          <parameter name="PIPE_PARAMETER">450</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="64"/>
+          </port_o>
+          <NP_functionality LIBRARY="posit2float_32_64_450 " FLOPOCO_PROVIDED="Posit2FP_32_64"/>
+        </component_o>
+      </circuit>
+    </cell>
+    -->
+    <!--
+    <cell>
+      <name>float2posit_32_32_450</name>
+      <operation operation_name="float2posit" cycles="7" initiation_time="1" stage_period="3.4100000000000001"/>
+      <circuit>
+        <component_o id="float2posit_32_32_450">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="float2posit_32_32_450"/>
+          <parameter name="PIPE_PARAMETER">450</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="float2posit_32_32_450 " FLOPOCO_PROVIDED="FP2Posit_32_32"/>
+        </component_o>
+      </circuit>
+    </cell>
+    -->
+    <!--
+    <cell>
+      <name>float2posit_64_32_450</name>
+      <operation operation_name="float2posit" cycles="8" initiation_time="1" stage_period="4.6920000000000002"/>
+      <circuit>
+        <component_o id="float2posit_64_32_450">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="float2posit_64_32_450"/>
+          <parameter name="PIPE_PARAMETER">450</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="64"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="float2posit_64_32_450 " FLOPOCO_PROVIDED="FP2Posit_64_32"/>
+        </component_o>
+      </circuit>
+    </cell>
+    -->
+    <!--
+    <cell>
+      <name>posit2float_32_32_500</name>
+      <operation operation_name="posit2float" cycles="6" initiation_time="1" stage_period="5.2919999999999998"/>
+      <circuit>
+        <component_o id="posit2float_32_32_500">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="posit2float_32_32_500"/>
+          <parameter name="PIPE_PARAMETER">500</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="posit2float_32_32_500 " FLOPOCO_PROVIDED="Posit2FP_32_32"/>
+        </component_o>
+      </circuit>
+    </cell>
+    -->
+    <!--
+    <cell>
+      <name>posit2float_32_64_500</name>
+      <operation operation_name="posit2float" cycles="5" initiation_time="1" stage_period="5.4640000000000004"/>
+      <circuit>
+        <component_o id="posit2float_32_64_500">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="posit2float_32_64_500"/>
+          <parameter name="PIPE_PARAMETER">500</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="64"/>
+          </port_o>
+          <NP_functionality LIBRARY="posit2float_32_64_500 " FLOPOCO_PROVIDED="Posit2FP_32_64"/>
+        </component_o>
+      </circuit>
+    </cell>
+    -->
+    <!--
+    <cell>
+      <name>float2posit_32_32_500</name>
+      <operation operation_name="float2posit" cycles="8" initiation_time="1" stage_period="4.6660000000000004"/>
+      <circuit>
+        <component_o id="float2posit_32_32_500">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="float2posit_32_32_500"/>
+          <parameter name="PIPE_PARAMETER">500</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="float2posit_32_32_500 " FLOPOCO_PROVIDED="FP2Posit_32_32"/>
+        </component_o>
+      </circuit>
+    </cell>
+    -->
+    <!--
+    <cell>
+      <name>float2posit_64_32_500</name>
+      <operation operation_name="float2posit" cycles="9" initiation_time="1" stage_period="3.4489999999999998"/>
+      <circuit>
+        <component_o id="float2posit_64_32_500">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="float2posit_64_32_500"/>
+          <parameter name="PIPE_PARAMETER">500</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="64"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="float2posit_64_32_500 " FLOPOCO_PROVIDED="FP2Posit_64_32"/>
+        </component_o>
+      </circuit>
+    </cell>
+    -->
+    <!--
+    <cell>
+      <name>posit2float_32_32_550</name>
+      <operation operation_name="posit2float" cycles="6" initiation_time="1" stage_period="4.2789999999999999"/>
+      <circuit>
+        <component_o id="posit2float_32_32_550">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="posit2float_32_32_550"/>
+          <parameter name="PIPE_PARAMETER">550</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="posit2float_32_32_550 " FLOPOCO_PROVIDED="Posit2FP_32_32"/>
+        </component_o>
+      </circuit>
+    </cell>
+    -->
+    <!--
+    <cell>
+      <name>posit2float_32_64_550</name>
+      <operation operation_name="posit2float" cycles="5" initiation_time="1" stage_period="4.25"/>
+      <circuit>
+        <component_o id="posit2float_32_64_550">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="posit2float_32_64_550"/>
+          <parameter name="PIPE_PARAMETER">550</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="64"/>
+          </port_o>
+          <NP_functionality LIBRARY="posit2float_32_64_550 " FLOPOCO_PROVIDED="Posit2FP_32_64"/>
+        </component_o>
+      </circuit>
+    </cell>
+    -->
+    <!--
+    <cell>
+      <name>float2posit_32_32_550</name>
+      <operation operation_name="float2posit" cycles="8" initiation_time="1" stage_period="4.968"/>
+      <circuit>
+        <component_o id="float2posit_32_32_550">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="float2posit_32_32_550"/>
+          <parameter name="PIPE_PARAMETER">550</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="float2posit_32_32_550 " FLOPOCO_PROVIDED="FP2Posit_32_32"/>
+        </component_o>
+      </circuit>
+    </cell>
+    -->
+    <!--
+    <cell>
+      <name>float2posit_64_32_550</name>
+      <operation operation_name="float2posit" cycles="10" initiation_time="1" stage_period="3.661"/>
+      <circuit>
+        <component_o id="float2posit_64_32_550">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="float2posit_64_32_550"/>
+          <parameter name="PIPE_PARAMETER">550</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="64"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="float2posit_64_32_550 " FLOPOCO_PROVIDED="FP2Posit_64_32"/>
+        </component_o>
+      </circuit>
+    </cell>
+    -->
+    <!--
+    <cell>
+      <name>posit2float_32_32_600</name>
+      <operation operation_name="posit2float" cycles="7" initiation_time="1" stage_period="4.1689999999999996"/>
+      <circuit>
+        <component_o id="posit2float_32_32_600">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="posit2float_32_32_600"/>
+          <parameter name="PIPE_PARAMETER">600</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="posit2float_32_32_600 " FLOPOCO_PROVIDED="Posit2FP_32_32"/>
+        </component_o>
+      </circuit>
+    </cell>
+    -->
+    <!--
+    <cell>
+      <name>posit2float_32_64_600</name>
+      <operation operation_name="posit2float" cycles="6" initiation_time="1" stage_period="4.2930000000000001"/>
+      <circuit>
+        <component_o id="posit2float_32_64_600">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="posit2float_32_64_600"/>
+          <parameter name="PIPE_PARAMETER">600</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="64"/>
+          </port_o>
+          <NP_functionality LIBRARY="posit2float_32_64_600 " FLOPOCO_PROVIDED="Posit2FP_32_64"/>
+        </component_o>
+      </circuit>
+    </cell>
+    -->
+    <!--
+    <cell>
+      <name>float2posit_32_32_600</name>
+      <operation operation_name="float2posit" cycles="9" initiation_time="1" stage_period="4.8170000000000002"/>
+      <circuit>
+        <component_o id="float2posit_32_32_600">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="float2posit_32_32_600"/>
+          <parameter name="PIPE_PARAMETER">600</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="float2posit_32_32_600 " FLOPOCO_PROVIDED="FP2Posit_32_32"/>
+        </component_o>
+      </circuit>
+    </cell>
+    -->
+    <!--
+    <cell>
+      <name>float2posit_64_32_600</name>
+      <operation operation_name="float2posit" cycles="11" initiation_time="1" stage_period="3.5129999999999999"/>
+      <circuit>
+        <component_o id="float2posit_64_32_600">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="float2posit_64_32_600"/>
+          <parameter name="PIPE_PARAMETER">600</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="64"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="float2posit_64_32_600 " FLOPOCO_PROVIDED="FP2Posit_64_32"/>
+        </component_o>
+      </circuit>
+    </cell>
+    -->
+    <!--
+    <cell>
+      <name>posit2float_32_32_650</name>
+      <operation operation_name="posit2float" cycles="8" initiation_time="1" stage_period="2.8849999999999998"/>
+      <circuit>
+        <component_o id="posit2float_32_32_650">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="posit2float_32_32_650"/>
+          <parameter name="PIPE_PARAMETER">650</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="posit2float_32_32_650 " FLOPOCO_PROVIDED="Posit2FP_32_32"/>
+        </component_o>
+      </circuit>
+    </cell>
+    -->
+    <!--
+    <cell>
+      <name>posit2float_32_64_650</name>
+      <operation operation_name="posit2float" cycles="7" initiation_time="1" stage_period="2.9329999999999998"/>
+      <circuit>
+        <component_o id="posit2float_32_64_650">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="posit2float_32_64_650"/>
+          <parameter name="PIPE_PARAMETER">650</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="64"/>
+          </port_o>
+          <NP_functionality LIBRARY="posit2float_32_64_650 " FLOPOCO_PROVIDED="Posit2FP_32_64"/>
+        </component_o>
+      </circuit>
+    </cell>
+    -->
+    <!--
+    <cell>
+      <name>float2posit_32_32_650</name>
+      <operation operation_name="float2posit" cycles="10" initiation_time="1" stage_period="4.8710000000000004"/>
+      <circuit>
+        <component_o id="float2posit_32_32_650">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="float2posit_32_32_650"/>
+          <parameter name="PIPE_PARAMETER">650</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="float2posit_32_32_650 " FLOPOCO_PROVIDED="FP2Posit_32_32"/>
+        </component_o>
+      </circuit>
+    </cell>
+    -->
+    <!--
+    <cell>
+      <name>float2posit_64_32_650</name>
+      <operation operation_name="float2posit" cycles="12" initiation_time="1" stage_period="3.4100000000000001"/>
+      <circuit>
+        <component_o id="float2posit_64_32_650">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="float2posit_64_32_650"/>
+          <parameter name="PIPE_PARAMETER">650</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="64"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="float2posit_64_32_650 " FLOPOCO_PROVIDED="FP2Posit_64_32"/>
+        </component_o>
+      </circuit>
+    </cell>
+    -->
+    <!--
+    <cell>
+      <name>posit2float_32_32_700</name>
+      <operation operation_name="posit2float" cycles="8" initiation_time="1" stage_period="2.895"/>
+      <circuit>
+        <component_o id="posit2float_32_32_700">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="posit2float_32_32_700"/>
+          <parameter name="PIPE_PARAMETER">700</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="posit2float_32_32_700 " FLOPOCO_PROVIDED="Posit2FP_32_32"/>
+        </component_o>
+      </circuit>
+    </cell>
+    -->
+    <!--
+    <cell>
+      <name>posit2float_32_64_700</name>
+      <operation operation_name="posit2float" cycles="7" initiation_time="1" stage_period="3.52"/>
+      <circuit>
+        <component_o id="posit2float_32_64_700">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="posit2float_32_64_700"/>
+          <parameter name="PIPE_PARAMETER">700</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="64"/>
+          </port_o>
+          <NP_functionality LIBRARY="posit2float_32_64_700 " FLOPOCO_PROVIDED="Posit2FP_32_64"/>
+        </component_o>
+      </circuit>
+    </cell>
+    -->
+    <!--
+    <cell>
+      <name>float2posit_32_32_700</name>
+      <operation operation_name="float2posit" cycles="11" initiation_time="1" stage_period="3.3490000000000002"/>
+      <circuit>
+        <component_o id="float2posit_32_32_700">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="float2posit_32_32_700"/>
+          <parameter name="PIPE_PARAMETER">700</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="float2posit_32_32_700 " FLOPOCO_PROVIDED="FP2Posit_32_32"/>
+        </component_o>
+      </circuit>
+    </cell>
+    -->
+    <!--
+    <cell>
+      <name>float2posit_64_32_700</name>
+      <operation operation_name="float2posit" cycles="13" initiation_time="1" stage_period="3.4159999999999999"/>
+      <circuit>
+        <component_o id="float2posit_64_32_700">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="float2posit_64_32_700"/>
+          <parameter name="PIPE_PARAMETER">700</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="64"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="float2posit_64_32_700 " FLOPOCO_PROVIDED="FP2Posit_64_32"/>
+        </component_o>
+      </circuit>
+    </cell>
+    -->
+  </library>
+</technology>

@@ -1,0 +1,16 @@
+Analyzing Xilinx synthesis results
+  Slices                   : 949
+  Luts                     : 2501
+  Registers                : 2115
+  DSPs                     : 0
+  BRAMs                    : 11
+  Clock period             : 10
+  Design minimum period    : 9.8309999999999995
+  Design slack             : 0.16900000000000048
+  Frequency                : 101.71905197843557
+  Total cycles             : 3431982 cycles
+  Number of executions     : 1
+  Average execution        : 3431982 cycles
+  AreaxTime                : 84383277.420041993
+  Time                     : 33739.815041999995
+  Tot. Time                : 33739.815041999995

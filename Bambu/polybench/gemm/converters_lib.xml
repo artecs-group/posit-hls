@@ -1,0 +1,225 @@
+<?xml version="1.0"?>
+<technology>
+  <library>
+    <name>converters_lib</name>
+    <cell>
+      <name>posit2float_32_32_300</name>
+      <operation operation_name="posit2float" cycles="3" initiation_time="1" stage_period="7.6429999999999998"/>
+      <circuit>
+        <component_o id="posit2float_32_32_300">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="posit2float_32_32_300"/>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="I" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="O" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="posit2float_32_32_300 " VHDL_FILE_PROVIDED="posit2float_32_32_300.vhd"/>
+        </component_o>
+      </circuit>
+    </cell>
+    <!--
+    <cell>
+      <name>posit2float_32_32_500</name>
+      <operation operation_name="posit2float" cycles="6" initiation_time="1" stage_period="5.141"/>
+      <circuit>
+        <component_o id="posit2float_32_32_500">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="posit2float_32_32_500"/>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="I" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="O" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="posit2float_32_32_500 " VHDL_FILE_PROVIDED="posit2float_32_32_500.vhd"/>
+        </component_o>
+      </circuit>
+    </cell>
+    -->
+    <!--
+    <cell>
+      <name>posit2float_32_64_300</name>
+      <operation operation_name="posit2float" cycles="3" initiation_time="1" stage_period="7.5339999999999998"/>
+      <circuit>
+        <component_o id="posit2float_32_64_300">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="posit2float_32_64_300"/>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="I" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="O" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="posit2float_32_64_300 " VHDL_FILE_PROVIDED="posit2float_32_64_300.vhd"/>
+        </component_o>
+      </circuit>
+    </cell>
+    -->
+    <!--
+    <cell>
+      <name>posit2float_32_64_500</name>
+      <operation operation_name="posit2float" cycles="5" initiation_time="1" stage_period="5.4020000000000001"/>
+      <circuit>
+        <component_o id="posit2float_32_64_500">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="posit2float_32_64_500"/>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="I" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="O" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="posit2float_32_64_500 " VHDL_FILE_PROVIDED="posit2float_32_64_500.vhd"/>
+        </component_o>
+      </circuit>
+    </cell>
+    -->
+    <cell>
+      <name>float2posit_32_32_300</name>
+      <operation operation_name="float2posit" cycles="5" initiation_time="1" stage_period="5.2489999999999997"/>
+      <circuit>
+        <component_o id="float2posit_32_32_300">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="float2posit_32_32_300"/>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="I" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="O" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="float2posit_32_32_300 " VHDL_FILE_PROVIDED="float2posit_32_32_300.vhd"/>
+        </component_o>
+      </circuit>
+    </cell>
+    <!--
+    <cell>
+      <name>float2posit_32_32_500</name>
+      <operation operation_name="float2posit" cycles="8" initiation_time="1" stage_period="5.0579999999999998"/>
+      <circuit>
+        <component_o id="float2posit_32_32_500">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="float2posit_532_32_00"/>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="I" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="O" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="float2posit_32_32_500 " VHDL_FILE_PROVIDED="float2posit_32_32_500.vhd"/>
+        </component_o>
+      </circuit>
+    </cell>
+    -->
+    <!--
+    <cell>
+      <name>float2posit_64_32_300</name>
+      <operation operation_name="float2posit" cycles="5" initiation_time="1" stage_period="5.0359999999999996"/>
+      <circuit>
+        <component_o id="float2posit_64_32_300">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="float2posit_64_32_300"/>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="I" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="O" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="float2posit_64_32_300 " VHDL_FILE_PROVIDED="float2posit_64_32_300.vhd"/>
+        </component_o>
+      </circuit>
+    </cell> -->
+    <!--
+    <cell>
+      <name>float2posit_64_32_500</name>
+      <operation operation_name="float2posit" cycles="9" initiation_time="1" stage_period="3.2229999999999999"/>
+      <circuit>
+        <component_o id="float2posit_64_32_500">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="float2posit_64_32_500"/>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="I" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="O" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="float2posit_64_32_500 " VHDL_FILE_PROVIDED="float2posit_64_32_500.vhd"/>
+        </component_o>
+      </circuit>
+    </cell>
+    -->
+  </library>
+</technology>

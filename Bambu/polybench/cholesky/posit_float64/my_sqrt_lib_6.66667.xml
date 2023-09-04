@@ -1,0 +1,1411 @@
+<?xml version="1.0"?>
+<technology>
+  <library>
+    <name>my_sqrt_lib</name>    
+    <!-- <cell>
+      <name>my_sqrt_float_32_32_100</name>
+      <operation operation_name="my_sqrt" cycles="3" initiation_time="1" stage_period="20.690999999999999"/>
+      <circuit>
+        <component_o id="my_sqrt_float_32_32_100">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="my_sqrt_float_32_32_100"/>
+          <parameter name="PIPE_PARAMETER">100</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="my_sqrt_float X R " FLOPOCO_PROVIDED="FPSqrt"/>
+        </component_o>
+      </circuit>
+    </cell> -->
+    <!-- <cell>
+      <name>my_sqrt_float_32_32_150</name>
+      <operation operation_name="my_sqrt" cycles="4" initiation_time="1" stage_period="14.497"/>
+      <circuit>
+        <component_o id="my_sqrt_float_32_32_150">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="my_sqrt_float_32_32_150"/>
+          <parameter name="PIPE_PARAMETER">150</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="my_sqrt_float X R " FLOPOCO_PROVIDED="FPSqrt"/>
+        </component_o>
+      </circuit>
+    </cell> -->
+    <!-- <cell>
+      <name>my_sqrt_float_32_32_200</name>
+      <operation operation_name="my_sqrt" cycles="6" initiation_time="1" stage_period="12.439"/>
+      <circuit>
+        <component_o id="my_sqrt_float_32_32_200">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="my_sqrt_float_32_32_200"/>
+          <parameter name="PIPE_PARAMETER">200</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="my_sqrt_float X R " FLOPOCO_PROVIDED="FPSqrt"/>
+        </component_o>
+      </circuit>
+    </cell> -->
+    <!-- <cell>
+      <name>my_sqrt_float_32_32_250</name>
+      <operation operation_name="my_sqrt" cycles="7" initiation_time="1" stage_period="10.154"/>
+      <circuit>
+        <component_o id="my_sqrt_float_32_32_250">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="my_sqrt_float_32_32_250"/>
+          <parameter name="PIPE_PARAMETER">250</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="my_sqrt_float X R " FLOPOCO_PROVIDED="FPSqrt"/>
+        </component_o>
+      </circuit>
+    </cell> -->
+    <!-- <cell>
+      <name>my_sqrt_float_32_32_300</name>
+      <operation operation_name="my_sqrt" cycles="8" initiation_time="1" stage_period="8.141"/>
+      <circuit>
+        <component_o id="my_sqrt_float_32_32_300">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="my_sqrt_float_32_32_300"/>
+          <parameter name="PIPE_PARAMETER">300</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="my_sqrt_float X R " FLOPOCO_PROVIDED="FPSqrt"/>
+        </component_o>
+      </circuit>
+    </cell> -->
+    <!-- <cell>
+      <name>my_sqrt_float_32_32_350</name>
+      <operation operation_name="my_sqrt" cycles="10" initiation_time="1" stage_period="7.806"/>
+      <circuit>
+        <component_o id="my_sqrt_float_32_32_350">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="my_sqrt_float_32_32_350"/>
+          <parameter name="PIPE_PARAMETER">350</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="my_sqrt_float X R " FLOPOCO_PROVIDED="FPSqrt"/>
+        </component_o>
+      </circuit>
+    </cell> -->
+    <!-- <cell>
+      <name>my_sqrt_float_32_32_400</name>
+      <operation operation_name="my_sqrt" cycles="11" initiation_time="1" stage_period="7.4390000000000001"/>
+      <circuit>
+        <component_o id="my_sqrt_float_32_32_400">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="my_sqrt_float_32_32_400"/>
+          <parameter name="PIPE_PARAMETER">400</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="my_sqrt_float X R " FLOPOCO_PROVIDED="FPSqrt"/>
+        </component_o>
+      </circuit>
+    </cell> -->
+    <!-- <cell>
+      <name>my_sqrt_float_32_32_450</name>
+      <operation operation_name="my_sqrt" cycles="13" initiation_time="1" stage_period="5.9640000000000004"/>
+      <circuit>
+        <component_o id="my_sqrt_float_32_32_450">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="my_sqrt_float_32_32_450"/>
+          <parameter name="PIPE_PARAMETER">450</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="my_sqrt_float X R " FLOPOCO_PROVIDED="FPSqrt"/>
+        </component_o>
+      </circuit>
+    </cell> -->
+    <!-- <cell>
+      <name>my_sqrt_float_32_32_500</name>
+      <operation operation_name="my_sqrt" cycles="14" initiation_time="1" stage_period="5.7119999999999997"/>
+      <circuit>
+        <component_o id="my_sqrt_float_32_32_500">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="my_sqrt_float_32_32_500"/>
+          <parameter name="PIPE_PARAMETER">500</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="my_sqrt_float X R " FLOPOCO_PROVIDED="FPSqrt"/>
+        </component_o>
+      </circuit>
+    </cell> -->
+    <!-- <cell>
+      <name>my_sqrt_float_32_32_550</name>
+      <operation operation_name="my_sqrt" cycles="16" initiation_time="1" stage_period="5.4219999999999997"/>
+      <circuit>
+        <component_o id="my_sqrt_float_32_32_550">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="my_sqrt_float_32_32_550"/>
+          <parameter name="PIPE_PARAMETER">550</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="my_sqrt_float X R " FLOPOCO_PROVIDED="FPSqrt"/>
+        </component_o>
+      </circuit>
+    </cell> -->
+    <!-- <cell>
+      <name>my_sqrt_float_32_32_600</name>
+      <operation operation_name="my_sqrt" cycles="18" initiation_time="1" stage_period="5.8049999999999997"/>
+      <circuit>
+        <component_o id="my_sqrt_float_32_32_600">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="my_sqrt_float_32_32_600"/>
+          <parameter name="PIPE_PARAMETER">600</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="my_sqrt_float X R " FLOPOCO_PROVIDED="FPSqrt"/>
+        </component_o>
+      </circuit>
+    </cell> -->
+    <!-- <cell>
+      <name>my_sqrt_float_32_32_650</name>
+      <operation operation_name="my_sqrt" cycles="19" initiation_time="1" stage_period="5.4820000000000002"/>
+      <circuit>
+        <component_o id="my_sqrt_float_32_32_650">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="my_sqrt_float_32_32_650"/>
+          <parameter name="PIPE_PARAMETER">650</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="my_sqrt_float X R " FLOPOCO_PROVIDED="FPSqrt"/>
+        </component_o>
+      </circuit>
+    </cell> -->
+    <!-- <cell>
+      <name>my_sqrt_float_32_32_700</name>
+      <operation operation_name="my_sqrt" cycles="21" initiation_time="1" stage_period="5.3700000000000001"/>
+      <circuit>
+        <component_o id="my_sqrt_float_32_32_700">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="my_sqrt_float_32_32_700"/>
+          <parameter name="PIPE_PARAMETER">700</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="my_sqrt_float X R " FLOPOCO_PROVIDED="FPSqrt"/>
+        </component_o>
+      </circuit>
+    </cell> -->
+    <!-- <cell>
+      <name>my_sqrt_float_64_64_100</name>
+      <operation operation_name="my_sqrt" cycles="7" initiation_time="1" stage_period="25.093"/>
+      <circuit>
+        <component_o id="my_sqrt_float_64_64_100">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="my_sqrt_float_64_64_100"/>
+          <parameter name="PIPE_PARAMETER">100</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="my_sqrt_float X R " FLOPOCO_PROVIDED="FPSqrt"/>
+        </component_o>
+      </circuit>
+    </cell> -->
+    <!-- <cell>
+      <name>my_sqrt_float_64_64_150</name>
+      <operation operation_name="my_sqrt" cycles="10" initiation_time="1" stage_period="16.913"/>
+      <circuit>
+        <component_o id="my_sqrt_float_64_64_150">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="my_sqrt_float_64_64_150"/>
+          <parameter name="PIPE_PARAMETER">150</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="my_sqrt_float X R " FLOPOCO_PROVIDED="FPSqrt"/>
+        </component_o>
+      </circuit>
+    </cell> -->
+    <!-- <cell>
+      <name>my_sqrt_float_64_64_200</name>
+      <operation operation_name="my_sqrt" cycles="14" initiation_time="1" stage_period="12.875999999999999"/>
+      <circuit>
+        <component_o id="my_sqrt_float_64_64_200">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="my_sqrt_float_64_64_200"/>
+          <parameter name="PIPE_PARAMETER">200</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="my_sqrt_float X R " FLOPOCO_PROVIDED="FPSqrt"/>
+        </component_o>
+      </circuit>
+    </cell> -->
+    <!-- <cell>
+      <name>my_sqrt_float_64_64_250</name>
+      <operation operation_name="my_sqrt" cycles="18" initiation_time="1" stage_period="10.920999999999999"/>
+      <circuit>
+        <component_o id="my_sqrt_float_64_64_250">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="my_sqrt_float_64_64_250"/>
+          <parameter name="PIPE_PARAMETER">250</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="my_sqrt_float X R " FLOPOCO_PROVIDED="FPSqrt"/>
+        </component_o>
+      </circuit>
+    </cell> -->
+    <!-- <cell>
+      <name>my_sqrt_float_64_64_300</name>
+      <operation operation_name="my_sqrt" cycles="21" initiation_time="1" stage_period="9.7940000000000005"/>
+      <circuit>
+        <component_o id="my_sqrt_float_64_64_300">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="my_sqrt_float_64_64_300"/>
+          <parameter name="PIPE_PARAMETER">300</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="my_sqrt_float X R " FLOPOCO_PROVIDED="FPSqrt"/>
+        </component_o>
+      </circuit>
+    </cell> -->
+    <!-- <cell>
+      <name>my_sqrt_float_64_64_350</name>
+      <operation operation_name="my_sqrt" cycles="25" initiation_time="1" stage_period="8.0690000000000008"/>
+      <circuit>
+        <component_o id="my_sqrt_float_64_64_350">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="my_sqrt_float_64_64_350"/>
+          <parameter name="PIPE_PARAMETER">350</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="my_sqrt_float X R " FLOPOCO_PROVIDED="FPSqrt"/>
+        </component_o>
+      </circuit>
+    </cell> -->
+    <!-- <cell>
+      <name>my_sqrt_float_64_64_400</name>
+      <operation operation_name="my_sqrt" cycles="29" initiation_time="1" stage_period="7.7939999999999996"/>
+      <circuit>
+        <component_o id="my_sqrt_float_64_64_400">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="my_sqrt_float_64_64_400"/>
+          <parameter name="PIPE_PARAMETER">400</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="my_sqrt_float X R " FLOPOCO_PROVIDED="FPSqrt"/>
+        </component_o>
+      </circuit>
+    </cell> -->
+    <!-- <cell>
+      <name>my_sqrt_float_64_64_450</name>
+      <operation operation_name="my_sqrt" cycles="33" initiation_time="1" stage_period="7.3540000000000001"/>
+      <circuit>
+        <component_o id="my_sqrt_float_64_64_450">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="my_sqrt_float_64_64_450"/>
+          <parameter name="PIPE_PARAMETER">450</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="my_sqrt_float X R " FLOPOCO_PROVIDED="FPSqrt"/>
+        </component_o>
+      </circuit>
+    </cell> -->
+    <!-- <cell>
+      <name>my_sqrt_float_64_64_500</name>
+      <operation operation_name="my_sqrt" cycles="37" initiation_time="1" stage_period="7.3959999999999999"/>
+      <circuit>
+        <component_o id="my_sqrt_float_64_64_500">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="my_sqrt_float_64_64_500"/>
+          <parameter name="PIPE_PARAMETER">500</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="my_sqrt_float X R " FLOPOCO_PROVIDED="FPSqrt"/>
+        </component_o>
+      </circuit>
+    </cell> -->
+    <!-- <cell>
+      <name>my_sqrt_float_64_64_550</name>
+      <operation operation_name="my_sqrt" cycles="42" initiation_time="1" stage_period="6.6929999999999996"/>
+      <circuit>
+        <component_o id="my_sqrt_float_64_64_550">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="my_sqrt_float_64_64_550"/>
+          <parameter name="PIPE_PARAMETER">550</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="my_sqrt_float X R " FLOPOCO_PROVIDED="FPSqrt"/>
+        </component_o>
+      </circuit>
+    </cell> -->
+    <!-- <cell>
+      <name>my_sqrt_float_64_64_600</name>
+      <operation operation_name="my_sqrt" cycles="46" initiation_time="1" stage_period="6.492"/>
+      <circuit>
+        <component_o id="my_sqrt_float_64_64_600">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="my_sqrt_float_64_64_600"/>
+          <parameter name="PIPE_PARAMETER">600</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="my_sqrt_float X R " FLOPOCO_PROVIDED="FPSqrt"/>
+        </component_o>
+      </circuit>
+    </cell> -->
+    <cell>
+      <name>my_sqrt_float_64_64_650</name>
+      <!-- <operation operation_name="my_sqrt" cycles="51" initiation_time="1" stage_period="5.891"/> -->
+      <operation operation_name="my_sqrt" cycles="51" initiation_time="1" stage_period="5.83"/>
+      <circuit>
+        <component_o id="my_sqrt_float_64_64_650">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="my_sqrt_float_64_64_650"/>
+          <parameter name="PIPE_PARAMETER">650</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="my_sqrt_float X R " FLOPOCO_PROVIDED="FPSqrt"/>
+        </component_o>
+      </circuit>
+    </cell>
+    <!-- <cell>
+      <name>my_sqrt_float_64_64_700</name>
+      <operation operation_name="my_sqrt" cycles="55" initiation_time="1" stage_period="5.4800000000000004"/>
+      <circuit>
+        <component_o id="my_sqrt_float_64_64_700">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="my_sqrt_float_64_64_700"/>
+          <parameter name="PIPE_PARAMETER">700</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="my_sqrt_float X R " FLOPOCO_PROVIDED="FPSqrt"/>
+        </component_o>
+      </circuit>
+    </cell> -->
+    <!-- <cell>
+      <name>my_sqrt_posit_32_32_100</name>
+      <operation operation_name="my_sqrt" cycles="11" initiation_time="1" stage_period="12.365"/>
+      <circuit>
+        <component_o id="my_sqrt_posit_32_32_100">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="my_sqrt_posit_32_32_100"/>
+          <parameter name="PIPE_PARAMETER">100</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="my_sqrt_posit X R " FLOPOCO_PROVIDED="FPSqrt"/>
+        </component_o>
+      </circuit>
+    </cell> -->
+    <!-- <cell>
+      <name>my_sqrt_posit_32_32_150</name>
+      <operation operation_name="my_sqrt" cycles="17" initiation_time="1" stage_period="7.6180000000000003"/>
+      <circuit>
+        <component_o id="my_sqrt_posit_32_32_150">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="my_sqrt_posit_32_32_150"/>
+          <parameter name="PIPE_PARAMETER">150</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="my_sqrt_posit X R " FLOPOCO_PROVIDED="FPSqrt"/>
+        </component_o>
+      </circuit>
+    </cell> -->
+    <!-- <cell>
+      <name>my_sqrt_posit_32_32_200</name>
+      <operation operation_name="my_sqrt" cycles="22" initiation_time="1" stage_period="6.8070000000000004"/>
+      <circuit>
+        <component_o id="my_sqrt_posit_32_32_200">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="my_sqrt_posit_32_32_200"/>
+          <parameter name="PIPE_PARAMETER">200</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="my_sqrt_posit X R " FLOPOCO_PROVIDED="FPSqrt"/>
+        </component_o>
+      </circuit>
+    </cell> -->
+    <!-- <cell>
+      <name>my_sqrt_posit_32_32_250</name>
+      <operation operation_name="my_sqrt" cycles="27" initiation_time="1" stage_period="5.3869999999999996"/>
+      <circuit>
+        <component_o id="my_sqrt_posit_32_32_250">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="my_sqrt_posit_32_32_250"/>
+          <parameter name="PIPE_PARAMETER">250</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="my_sqrt_posit X R " FLOPOCO_PROVIDED="FPSqrt"/>
+        </component_o>
+      </circuit>
+    </cell> -->
+    <!-- <cell>
+      <name>my_sqrt_posit_32_32_300</name>
+      <operation operation_name="my_sqrt" cycles="35" initiation_time="1" stage_period="4.9029999999999996"/>
+      <circuit>
+        <component_o id="my_sqrt_posit_32_32_300">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="my_sqrt_posit_32_32_300"/>
+          <parameter name="PIPE_PARAMETER">300</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="my_sqrt_posit X R " FLOPOCO_PROVIDED="FPSqrt"/>
+        </component_o>
+      </circuit>
+    </cell> -->
+    <!-- <cell>
+      <name>my_sqrt_posit_32_32_350</name>
+      <operation operation_name="my_sqrt" cycles="40" initiation_time="1" stage_period="4.8940000000000001"/>
+      <circuit>
+        <component_o id="my_sqrt_posit_32_32_350">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="my_sqrt_posit_32_32_350"/>
+          <parameter name="PIPE_PARAMETER">350</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="my_sqrt_posit X R " FLOPOCO_PROVIDED="FPSqrt"/>
+        </component_o>
+      </circuit>
+    </cell> -->
+    <!-- <cell>
+      <name>my_sqrt_posit_32_32_400</name>
+      <operation operation_name="my_sqrt" cycles="47" initiation_time="1" stage_period="4.9660000000000002"/>
+      <circuit>
+        <component_o id="my_sqrt_posit_32_32_400">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="my_sqrt_posit_32_32_400"/>
+          <parameter name="PIPE_PARAMETER">400</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="my_sqrt_posit X R " FLOPOCO_PROVIDED="FPSqrt"/>
+        </component_o>
+      </circuit>
+    </cell> -->
+    <!-- <cell>
+      <name>my_sqrt_posit_32_32_450</name>
+      <operation operation_name="my_sqrt" cycles="53" initiation_time="1" stage_period="4.1840000000000002"/>
+      <circuit>
+        <component_o id="my_sqrt_posit_32_32_450">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="my_sqrt_posit_32_32_450"/>
+          <parameter name="PIPE_PARAMETER">450</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="my_sqrt_posit X R " FLOPOCO_PROVIDED="FPSqrt"/>
+        </component_o>
+      </circuit>
+    </cell> -->
+    <!-- <cell>
+      <name>my_sqrt_posit_32_32_500</name>
+      <operation operation_name="my_sqrt" cycles="63" initiation_time="1" stage_period="4.0350000000000001"/>
+      <circuit>
+        <component_o id="my_sqrt_posit_32_32_500">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="my_sqrt_posit_32_32_500"/>
+          <parameter name="PIPE_PARAMETER">500</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="my_sqrt_posit X R " FLOPOCO_PROVIDED="FPSqrt"/>
+        </component_o>
+      </circuit>
+    </cell> -->
+    <!-- <cell>
+      <name>my_sqrt_posit_32_32_550</name>
+      <operation operation_name="my_sqrt" cycles="70" initiation_time="1" stage_period="3.6960000000000002"/>
+      <circuit>
+        <component_o id="my_sqrt_posit_32_32_550">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="my_sqrt_posit_32_32_550"/>
+          <parameter name="PIPE_PARAMETER">550</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="my_sqrt_posit X R " FLOPOCO_PROVIDED="FPSqrt"/>
+        </component_o>
+      </circuit>
+    </cell> -->
+    <!-- <cell>
+      <name>my_sqrt_posit_32_32_600</name>
+      <operation operation_name="my_sqrt" cycles="72" initiation_time="1" stage_period="3.633"/>
+      <circuit>
+        <component_o id="my_sqrt_posit_32_32_600">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="my_sqrt_posit_32_32_600"/>
+          <parameter name="PIPE_PARAMETER">600</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="my_sqrt_posit X R " FLOPOCO_PROVIDED="FPSqrt"/>
+        </component_o>
+      </circuit>
+    </cell> -->
+    <!-- <cell>
+      <name>my_sqrt_posit_32_32_650</name>
+      <operation operation_name="my_sqrt" cycles="88" initiation_time="1" stage_period="3.9870000000000001"/>
+      <circuit>
+        <component_o id="my_sqrt_posit_32_32_650">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="my_sqrt_posit_32_32_650"/>
+          <parameter name="PIPE_PARAMETER">650</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="my_sqrt_posit X R " FLOPOCO_PROVIDED="FPSqrt"/>
+        </component_o>
+      </circuit>
+    </cell> -->
+    <!-- <cell>
+      <name>my_sqrt_posit_32_32_700</name>
+      <operation operation_name="my_sqrt" cycles="105" initiation_time="1" stage_period="4.2439999999999998"/>
+      <circuit>
+        <component_o id="my_sqrt_posit_32_32_700">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="my_sqrt_posit_32_32_700"/>
+          <parameter name="PIPE_PARAMETER">700</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="my_sqrt_posit X R " FLOPOCO_PROVIDED="FPSqrt"/>
+        </component_o>
+      </circuit>
+    </cell> -->
+    <!-- <cell>
+      <name>my_sqrt_posit_64_64_100</name>
+      <operation operation_name="my_sqrt" cycles="27" initiation_time="1" stage_period="12.036"/>
+      <circuit>
+        <component_o id="my_sqrt_posit_64_64_100">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="my_sqrt_posit_64_64_100"/>
+          <parameter name="PIPE_PARAMETER">100</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="my_sqrt_posit X R " FLOPOCO_PROVIDED="FPSqrt"/>
+        </component_o>
+      </circuit>
+    </cell> -->
+    <!-- <cell>
+      <name>my_sqrt_posit_64_64_150</name>
+      <operation operation_name="my_sqrt" cycles="41" initiation_time="1" stage_period="9.8399999999999999"/>
+      <circuit>
+        <component_o id="my_sqrt_posit_64_64_150">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="my_sqrt_posit_64_64_150"/>
+          <parameter name="PIPE_PARAMETER">150</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="my_sqrt_posit X R " FLOPOCO_PROVIDED="FPSqrt"/>
+        </component_o>
+      </circuit>
+    </cell> -->
+    <!-- <cell>
+      <name>my_sqrt_posit_64_64_200</name>
+      <operation operation_name="my_sqrt" cycles="59" initiation_time="1" stage_period="8.4559999999999995"/>
+      <circuit>
+        <component_o id="my_sqrt_posit_64_64_200">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="my_sqrt_posit_64_64_200"/>
+          <parameter name="PIPE_PARAMETER">200</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="my_sqrt_posit X R " FLOPOCO_PROVIDED="FPSqrt"/>
+        </component_o>
+      </circuit>
+    </cell> -->
+    <!-- <cell>
+      <name>my_sqrt_posit_64_64_250</name>
+      <operation operation_name="my_sqrt" cycles="68" initiation_time="1" stage_period="7.04"/>
+      <circuit>
+        <component_o id="my_sqrt_posit_64_64_250">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="my_sqrt_posit_64_64_250"/>
+          <parameter name="PIPE_PARAMETER">250</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="my_sqrt_posit X R " FLOPOCO_PROVIDED="FPSqrt"/>
+        </component_o>
+      </circuit>
+    </cell> -->
+    <!-- <cell>
+      <name>my_sqrt_posit_64_64_300</name>
+      <operation operation_name="my_sqrt" cycles="87" initiation_time="1" stage_period="7.1669999999999998"/>
+      <circuit>
+        <component_o id="my_sqrt_posit_64_64_300">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="my_sqrt_posit_64_64_300"/>
+          <parameter name="PIPE_PARAMETER">300</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="my_sqrt_posit X R " FLOPOCO_PROVIDED="FPSqrt"/>
+        </component_o>
+      </circuit>
+    </cell> -->
+    <!-- <cell>
+      <name>my_sqrt_posit_64_64_350</name>
+      <operation operation_name="my_sqrt" cycles="107" initiation_time="1" stage_period="7"/>
+      <circuit>
+        <component_o id="my_sqrt_posit_64_64_350">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="my_sqrt_posit_64_64_350"/>
+          <parameter name="PIPE_PARAMETER">350</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="my_sqrt_posit X R " FLOPOCO_PROVIDED="FPSqrt"/>
+        </component_o>
+      </circuit>
+    </cell> -->
+    <!-- <cell>
+      <name>my_sqrt_posit_64_64_400</name>
+      <operation operation_name="my_sqrt" cycles="132" initiation_time="1" stage_period="5.5949999999999998"/>
+      <circuit>
+        <component_o id="my_sqrt_posit_64_64_400">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="my_sqrt_posit_64_64_400"/>
+          <parameter name="PIPE_PARAMETER">400</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="my_sqrt_posit X R " FLOPOCO_PROVIDED="FPSqrt"/>
+        </component_o>
+      </circuit>
+    </cell> -->
+    <!-- <cell>
+      <name>my_sqrt_posit_64_64_450</name>
+      <operation operation_name="my_sqrt" cycles="134" initiation_time="1" stage_period="4.9349999999999996"/>
+      <circuit>
+        <component_o id="my_sqrt_posit_64_64_450">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="my_sqrt_posit_64_64_450"/>
+          <parameter name="PIPE_PARAMETER">450</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="my_sqrt_posit X R " FLOPOCO_PROVIDED="FPSqrt"/>
+        </component_o>
+      </circuit>
+    </cell> -->
+    <!-- <cell>
+      <name>my_sqrt_posit_64_64_500</name>
+      <operation operation_name="my_sqrt" cycles="154" initiation_time="1" stage_period="5.0810000000000004"/>
+      <circuit>
+        <component_o id="my_sqrt_posit_64_64_500">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="my_sqrt_posit_64_64_500"/>
+          <parameter name="PIPE_PARAMETER">500</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="my_sqrt_posit X R " FLOPOCO_PROVIDED="FPSqrt"/>
+        </component_o>
+      </circuit>
+    </cell> -->
+    <!-- <cell>
+      <name>my_sqrt_posit_64_64_550</name>
+      <operation operation_name="my_sqrt" cycles="198" initiation_time="1" stage_period="5.2629999999999999"/>
+      <circuit>
+        <component_o id="my_sqrt_posit_64_64_550">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="my_sqrt_posit_64_64_550"/>
+          <parameter name="PIPE_PARAMETER">550</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="my_sqrt_posit X R " FLOPOCO_PROVIDED="FPSqrt"/>
+        </component_o>
+      </circuit>
+    </cell> -->
+    <!-- <cell>
+      <name>my_sqrt_posit_64_64_600</name>
+      <operation operation_name="my_sqrt" cycles="219" initiation_time="1" stage_period="5.3979999999999997"/>
+      <circuit>
+        <component_o id="my_sqrt_posit_64_64_600">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="my_sqrt_posit_64_64_600"/>
+          <parameter name="PIPE_PARAMETER">600</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="my_sqrt_posit X R " FLOPOCO_PROVIDED="FPSqrt"/>
+        </component_o>
+      </circuit>
+    </cell> -->
+    <!-- <cell>
+      <name>my_sqrt_posit_64_64_650</name>
+      <operation operation_name="my_sqrt" cycles="252" initiation_time="1" stage_period="4.8140000000000001"/>
+      <circuit>
+        <component_o id="my_sqrt_posit_64_64_650">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="my_sqrt_posit_64_64_650"/>
+          <parameter name="PIPE_PARAMETER">650</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="my_sqrt_posit X R " FLOPOCO_PROVIDED="FPSqrt"/>
+        </component_o>
+      </circuit>
+    </cell> -->
+    <!-- <cell>
+      <name>my_sqrt_posit_64_64_700</name>
+      <operation operation_name="my_sqrt" cycles="302" initiation_time="1" stage_period="4.6929999999999996"/>
+      <circuit>
+        <component_o id="my_sqrt_posit_64_64_700">
+          <description>This component is part of the BAMBU/PANDA IP LIBRARY</description>
+          <copyright>Copyright (C) 2016-2022 Politecnico di Milano</copyright>  
+          <authors>Fabrizio Ferrandi &lt;fabrizio.ferrandi@polimi.it&gt;</authors> 
+          <license>PANDA_LGPLv3</license>
+          <structural_type_descriptor id_type="my_sqrt_posit_64_64_700"/>
+          <parameter name="PIPE_PARAMETER">700</parameter>
+          <port_o id="clock" dir="IN" is_clock="1">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="reset" dir="IN">
+            <structural_type_descriptor type="BOOL" size="1"/>
+          </port_o>
+          <port_o id="X" dir="IN">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <port_o id="R" dir="OUT">
+            <structural_type_descriptor type="REAL" size="32"/>
+          </port_o>
+          <NP_functionality LIBRARY="my_sqrt_posit X R " FLOPOCO_PROVIDED="FPSqrt"/>
+        </component_o>
+      </circuit>
+    </cell> -->
+  </library>
+</technology>

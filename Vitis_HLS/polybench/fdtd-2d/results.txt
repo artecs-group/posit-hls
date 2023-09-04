@@ -1,0 +1,120 @@
+
+--- float32 - 20 ns ---
+Latency (cycles) = 36867
+Clock Period (ns) = 13.626
+Slack (ns) = 6.374
+BRAM_18K = 6
+DSP = 11
+FF = 2007
+LUT = 2986
+URAM = 0
+
+--- float32 - 10 ns ---
+Latency (cycles) = 37649
+Clock Period (ns) = 7.241
+Slack (ns) = 2.759
+BRAM_18K = 6
+DSP = 11
+FF = 2941
+LUT = 3039
+URAM = 0
+
+--- float32 - 6.66667 ns ---
+Latency (cycles) = 38113
+Clock Period (ns) = 4.706
+Slack (ns) = 1.964
+BRAM_18K = 6
+DSP = 11
+FF = 3353
+LUT = 3075
+URAM = 0
+
+--- float64 - 20 ns ---
+Latency (cycles) = 37107
+Clock Period (ns) = 14.414
+Slack (ns) = 5.586
+BRAM_18K = 14
+DSP = 23
+FF = 4122
+LUT = 5249
+URAM = 0
+
+--- float64 - 10 ns ---
+Latency (cycles) = 37989
+Clock Period (ns) = 7.241
+Slack (ns) = 2.759
+BRAM_18K = 14
+DSP = 23
+FF = 5362
+LUT = 5015
+URAM = 0
+
+--- float64 - 6.66667 ns ---
+Latency (cycles) = 38893
+Clock Period (ns) = 4.706
+Slack (ns) = 1.964
+BRAM_18K = 14
+DSP = 23
+FF = 6747
+LUT = 5413
+URAM = 0
+
+--- posit32 - 20 ns ---
+Latency (cycles) = 38228
+Clock Period (ns) = 14.401
+Slack (ns) = 5.599
+BRAM_18K = 6
+FF = 5022
+LUT = 16114
+URAM = 0
+DSP = 0
+
+--- posit32 - 10 ns ---
+Latency (cycles) = 39710
+Clock Period (ns) = 7.241
+Slack (ns) = 2.759
+BRAM_18K = 6
+FF = 11341
+LUT = 18386
+URAM = 0
+DSP = 0
+
+--- posit32 - 6.66667 ns ---
+Latency (cycles) = 40895
+Clock Period (ns) = 4.812
+Slack (ns) = 1.858
+BRAM_18K = 6
+FF = 17971
+LUT = 20801
+URAM = 0
+DSP = 0
+
+--- posit64 - 20 ns ---
+Latency (cycles) = 38328
+Clock Period (ns) = 14.528
+Slack (ns) = 5.472
+BRAM_18K = 14
+FF = 10219
+LUT = 27556
+URAM = 0
+DSP = 0
+
+--- posit64 - 10 ns ---
+Latency (cycles) = 40150
+Clock Period (ns) = 7.241
+Slack (ns) = 2.759
+BRAM_18K = 14
+FF = 17569
+LUT = 29572
+URAM = 0
+DSP = 0
+
+--- posit64 - 6.66667 ns ---
+Latency (cycles) = 41655
+Clock Period (ns) = 4.706
+Slack (ns) = 1.964
+BRAM_18K = 14
+FF = 27328
+LUT = 32275
+URAM = 0
+DSP = 0
