@@ -20,26 +20,25 @@
 /* Include benchmark-specific header. */
 #include "cholesky.h"
 
-
 /* Array initialization. */
-static
-void init_array(int n,
-		DATA_TYPE POLYBENCH_2D(A,N,N,n,n))
+static void init_array(int n,
+                       DATA_TYPE POLYBENCH_2D(A, N, N, n, n))
 {
   int i, j;
 
   for (i = 0; i < n; i++)
+  {
+    for (j = 0; j <= i; j++)
+      A[i][j] = (DATA_TYPE)(-j % n) / n + 1;
+    for (j = i + 1; j < n; j++)
     {
-      for (j = 0; j <= i; j++)
-	A[i][j] = (DATA_TYPE)(-j % n) / n + 1;
-      for (j = i+1; j < n; j++) {
-	A[i][j] = 0;
-      }
-      A[i][i] = 1;
+      A[i][j] = 0;
     }
+    A[i][i] = 1;
+  }
 
   /* Make the matrix positive semi-definite. */
-  int r,s,t;
+  int r, s, t;
   POLYBENCH_2D_ARRAY_DECL(B, DATA_TYPE, N, N, n, n);
   for (r = 0; r < n; ++r)
     for (s = 0; s < n; ++s)
@@ -47,20 +46,17 @@ void init_array(int n,
   for (t = 0; t < n; ++t)
     for (r = 0; r < n; ++r)
       for (s = 0; s < n; ++s)
-	(POLYBENCH_ARRAY(B))[r][s] += A[r][t] * A[s][t];
-    for (r = 0; r < n; ++r)
-      for (s = 0; s < n; ++s)
-	A[r][s] = (POLYBENCH_ARRAY(B))[r][s];
+        (POLYBENCH_ARRAY(B))[r][s] += A[r][t] * A[s][t];
+  for (r = 0; r < n; ++r)
+    for (s = 0; s < n; ++s)
+      A[r][s] = (POLYBENCH_ARRAY(B))[r][s];
   POLYBENCH_FREE_ARRAY(B);
-
 }
-
 
 /* DCE code. Must scan the entire live-out data.
    Can be used also to check the correctness of the output. */
-static
-void print_array(int n,
-		 DATA_TYPE POLYBENCH_2D(A,N,N,n,n))
+static void print_array(int n,
+                        DATA_TYPE POLYBENCH_2D(A, N, N, n, n))
 
 {
   int i, j;
@@ -68,49 +64,50 @@ void print_array(int n,
   POLYBENCH_DUMP_START;
   POLYBENCH_DUMP_BEGIN("A");
   for (i = 0; i < n; i++)
-    for (j = 0; j <= i; j++) {
-    if ((i * n + j) % 20 == 0) fprintf (POLYBENCH_DUMP_TARGET, "\n");
+    for (j = 0; j <= i; j++)
+    {
+      if ((i * n + j) % 20 == 0)
+        fprintf(POLYBENCH_DUMP_TARGET, "\n");
 #ifdef DATA_TYPE_IS_POSIT
-			std::cout << hex_format(A[i][j]) << " ";
+      std::cout << hex_format(A[i][j]) << " ";
 #else
-			fprintf (POLYBENCH_DUMP_TARGET, DATA_PRINTF_MODIFIER, A[i][j]);
+      fprintf(POLYBENCH_DUMP_TARGET, DATA_PRINTF_MODIFIER, A[i][j]);
 #endif
-  }
+    }
   POLYBENCH_DUMP_END("A");
   POLYBENCH_DUMP_FINISH;
 }
 
-
 /* Main computational kernel. The whole function will be timed,
    including the call and return. */
-static
-void kernel_cholesky(int n,
-		     DATA_TYPE POLYBENCH_2D(A,N,N,n,n))
+static void kernel_cholesky(int n,
+                            DATA_TYPE POLYBENCH_2D(A, N, N, n, n))
 {
   int i, j, k;
 
-
 #pragma scop
-  for (i = 0; i < _PB_N; i++) {
-     //j<i
-     for (j = 0; j < i; j++) {
-        for (k = 0; k < j; k++) {
-           A[i][j] -= A[i][k] * A[j][k];
-        }
-        A[i][j] /= A[j][j];
-     }
-     // i==j case
-     for (k = 0; k < i; k++) {
-        A[i][i] -= A[i][k] * A[i][k];
-     }
-     A[i][i] = SQRT_FUN(A[i][i]);
+  for (i = 0; i < _PB_N; i++)
+  {
+    // j<i
+    for (j = 0; j < i; j++)
+    {
+      for (k = 0; k < j; k++)
+      {
+        A[i][j] -= A[i][k] * A[j][k];
+      }
+      A[i][j] /= A[j][j];
+    }
+    // i==j case
+    for (k = 0; k < i; k++)
+    {
+      A[i][i] -= A[i][k] * A[i][k];
+    }
+    A[i][i] = SQRT_FUN(A[i][i]);
   }
 #pragma endscop
-
 }
 
-
-int main(int argc, char** argv)
+int main(int argc, char **argv)
 {
   /* Retrieve problem size. */
   int n = N;
@@ -119,13 +116,13 @@ int main(int argc, char** argv)
   POLYBENCH_2D_ARRAY_DECL(A, DATA_TYPE, N, N, n, n);
 
   /* Initialize array(s). */
-  init_array (n, POLYBENCH_ARRAY(A));
+  init_array(n, POLYBENCH_ARRAY(A));
 
   /* Start timer. */
   polybench_start_instruments;
 
   /* Run kernel. */
-  kernel_cholesky (n, POLYBENCH_ARRAY(A));
+  kernel_cholesky(n, POLYBENCH_ARRAY(A));
 
   /* Stop and print timer. */
   polybench_stop_instruments;
