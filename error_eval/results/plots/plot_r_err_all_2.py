@@ -13,7 +13,9 @@ width = 0.15  # the width of the bars
 #           '#1f78b4', '#ff7f00', '#33a02c']
 # colors = ['#79B1D3', '#FEAF53', '#88CA6B', '#1f78b4', '#ff7f00', '#33a02c']
 # colors = ['#95a9cd', '#d29291', '#bbcc96', '#4573a7', '#aa4744', '#89a54e']
-colors = ['#a5b8d1', '#e1a295', '#b2c285', '#4077b0', '#b54442', '#8aa650']
+colors = ['#a5b8d1', '#e1a295', '#b2c285', 
+          '#4077b0', '#b54442', '#8aa650'
+          ]
 
 hatches = ([''] * (6)) + (['//'] * (3))
 
@@ -61,21 +63,21 @@ def add_plot(benchmark_name, ylim_top, ax):
      posit_double_error) = read_accuracy_file('../accuracy/accuracy_results.txt', benchmark_name)
 
     # alpha=0.99, # Bug with hatches: https://stackoverflow.com/questions/5195466/matplotlib-does-not-display-hatching-when-rendering-to-pdf
-    rect_flt = ax.bar(x - (2*width+shift), float_error, width,
+    rect_flt = ax.bar(x - (1*width+shift), float_error, width,
                       label='Float32', color=colors[0], 
                       alpha=0.99, hatch=hatches[0], 
                       edgecolor='k',
                       linewidth=0.5,)
-    rect_pos32 = ax.bar(x - (1*width+shift), posit32_error, width,
+    rect_pos32 = ax.bar(x - (0*width+shift), posit32_error, width,
                         label='Posit32', color=colors[1], 
                         alpha=0.99, hatch=hatches[1], 
                         edgecolor='k',
                         linewidth=0.5,)
-    rect_p_fp32 = ax.bar(x - (0*width+shift), posit_float_error, width,
-                         label='Posit$_{mem}$Float32', color=colors[2], 
-                         alpha=0.99, hatch=hatches[2], 
-                         edgecolor='k',
-                         linewidth=0.5,)
+    # rect_p_fp32 = ax.bar(x - (0*width+shift), posit_float_error, width,
+    #                      label='Posit$_{mem}$Float32', color=colors[2], 
+    #                      alpha=0.99, hatch=hatches[2], 
+    #                      edgecolor='k',
+    #                      linewidth=0.5,)
     rect_dbl = ax.bar(x + (0*width+shift), double_error, width,
                       label='Float64', color=colors[3], 
                       alpha=0.99, hatch=hatches[3], 
@@ -86,11 +88,11 @@ def add_plot(benchmark_name, ylim_top, ax):
                         alpha=0.99, hatch=hatches[4], 
                         edgecolor='k',
                         linewidth=0.5,)
-    rect_p_fp64 = ax.bar(x + (2*width+shift), posit_double_error, width,
-                         label='Posit$_{mem}$Float64', color=colors[5], 
-                         alpha=0.99, hatch=hatches[5], 
-                         edgecolor='k',
-                         linewidth=0.5,)
+    # rect_p_fp64 = ax.bar(x + (2*width+shift), posit_double_error, width,
+    #                      label='Posit$_{mem}$Float64', color=colors[5], 
+    #                      alpha=0.99, hatch=hatches[5], 
+    #                      edgecolor='k',
+    #                      linewidth=0.5,)
 
     plt.sca(ax)
     ax.set_ylabel('Relative Error')
@@ -112,12 +114,12 @@ def add_plot(benchmark_name, ylim_top, ax):
     ax.bar_label(rect_pos64, rotation=90, fmt='%1.2e',
                  padding=3 if posit64_error[-1] < ylim_top else -60, 
                  fontsize=9)
-    ax.bar_label(rect_p_fp32, rotation=90, fmt='%1.2e',
-                 padding=3 if posit_float_error[-1] < ylim_top else -60, 
-                 fontsize=9)
-    ax.bar_label(rect_p_fp64, rotation=90, fmt='%1.2e',
-                 padding=3 if posit_double_error[-1] < ylim_top else -60, 
-                 fontsize=9)
+    # ax.bar_label(rect_p_fp32, rotation=90, fmt='%1.2e',
+    #              padding=3 if posit_float_error[-1] < ylim_top else -60, 
+    #              fontsize=9)
+    # ax.bar_label(rect_p_fp64, rotation=90, fmt='%1.2e',
+    #              padding=3 if posit_double_error[-1] < ylim_top else -60, 
+    #              fontsize=9)
     # plt.ylim(top=ylim_top)
 
     # plt.legend([rect_pos32, rect_flt, rect_pos64, rect_dbl], ['Posit32', 'Float', 'Posit64', 'Double'],
@@ -157,5 +159,5 @@ if __name__ == "__main__":
     # figure.set_size_inches(18, 8)
     figure.set_size_inches(12, 12)
     # figure.tight_layout()
-    plt.savefig('plot_error.png', bbox_inches='tight', dpi=300)
-    plt.savefig("plot_error.pdf", bbox_inches="tight")
+    plt.savefig('plot_error_2.png', bbox_inches='tight', dpi=300)
+    plt.savefig("plot_error_2.pdf", bbox_inches="tight")
