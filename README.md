@@ -50,9 +50,24 @@ To generate a posit-based accelerator, take any C program using floating-point n
 
 Overview paper:
 
-> R. Murillo, A. A. D. Barrio, G. Botella and C. Pilato, "Generating Posit-Based Accelerators With High-Level Synthesis," in IEEE Transactions on Circuits and Systems I: Regular Papers, doi: [10.1109/TCSI.2023.3299009](https://doi.org/10.1109/TCSI.2023.3299009).
+> R. Murillo, A. A. D. Barrio, G. Botella and C. Pilato, "Generating Posit-Based Accelerators With High-Level Synthesis". *IEEE Transactions on Circuits and Systems I: Regular Papers*, 2023, vol. 70, no 10 (2023), doi: [10.1109/TCSI.2023.3299009](https://doi.org/10.1109/TCSI.2023.3299009).
 
 If you find this project useful, please do not forget to cite this paper.
+
+```
+@article{Murillo2023Generating,
+  author={Murillo, Raul and Del Barrio, Alberto A and Botella, Guillermo and Pilato, Christian},
+  journal={IEEE Transactions on Circuits and Systems I: Regular Papers}, 
+  title={Generating posit-based accelerators with high-level synthesis}, 
+  year={2023},
+  volume={70},
+  number={10},
+  pages={Generating posit-based accelerators with high-level synthesis},,
+  publisher={IEEE},
+  doi={10.1109/TCSII.2023.3307488}
+}
+```
+
 
 ### Acknowledgments
 
