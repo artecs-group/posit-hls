@@ -62,7 +62,7 @@ If you find this project useful, please do not forget to cite this paper.
   year={2023},
   volume={70},
   number={10},
-  pages={Generating posit-based accelerators with high-level synthesis},,
+  pages={4040--4052},
   publisher={IEEE},
   doi={10.1109/TCSII.2023.3307488}
 }
